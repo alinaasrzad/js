@@ -24,24 +24,24 @@
 //***********array type */
 // lesson 4
 
-// let users = [
-//     "alina" , "ali","lala"
-//     ]
-//     users[4] = "salam"
-//     // if you want to add object in array
-//     users[1] = " hello"
-//     // you can change your elements in array
-//     users[1] = 4
-//     // it can be a number
-//     console.log(users[4]);
-//     console.log(users);
-//   console.log(users.length)
-// //   its clear
-//   console.log(users.includes("salam"))
+let users = [
+    "alina" , "ali","lala"
+    ]
+    users[4] = "salam"
+    // if you want to add object in array
+    users[1] = " hello"
+    // you can change your elements in array
+    users[1] = 4
+    // it can be a number
+    console.log(users[4]);
+    console.log(users);
+  console.log(users.length)
+//   its clear
+  console.log(users.includes("salam"))
 
-// if the number is not in it  = undefind
+if the number is not in it  = undefind
 
-// type of function
+type of function
 //  
 function deep(name ,age){
     console.log("hello"+name +"that you have a " +age)
@@ -56,12 +56,14 @@ console.log(result)
 //******                       operators ****                            **** */
 let x = 10;
 let y =15;
+x = x+y;
 console.log(x+y)
 console.log(x**y) 
 console.log(x/y)
 console.log(x++)
-console.log(++x)
-console.log(+x)
+// console.log(++x)
+// console.log(+x)
+
 
 
 
