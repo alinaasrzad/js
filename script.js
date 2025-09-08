@@ -76,9 +76,19 @@ let athenticated = false;
 let bottonText =  athenticated ? "dashboard" : "login"
 console.log(bottonText)
 
-
-
-
-
 // console.log(x%y)    baqimande
  
+//logical and
+// &&
+console.log(false && false)
+let ProductCount = 3;
+let ProductPrice = 1000;
+ let credit = 1070;
+ let buy = ProductCount > 0 && credit >ProductPrice;
+ console. log(buy);
+// logical OR
+// ||
+ let cantbuy = ProductCount > 6 || credit >ProductPrice;
+console.log(cantbuy)
+
+//not
