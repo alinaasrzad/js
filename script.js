@@ -57,19 +57,24 @@ console.log(result)
 let x = 10;
 let y =15;
 // x = x+y;
-console.log(x+y)
-console.log(x**y) 
-console.log(x/y)
-console.log(x++)
-// console.log(++x)
-// console.log(+x)
-console.log(x<4)
-console.log(y<8)
-console.log(x<16)
-console.log(x == 1)
-console.log(10 === 10)
+// console.log(x+y)
+// console.log(x**y) 
+// console.log(x/y)
+// console.log(x++)
+// // console.log(++x)
+// // console.log(+x)
+// console.log(x<4)
+// console.log(y<8)
+// console.log(x<16)
+// console.log(x == 1)
+// console.log(10 === 10) 
+// seta === type ham check mishe
 
 
+//*****                     ***                 *** */
+let athenticated = false;
+let bottonText =  athenticated ? "dashboard" : "login"
+console.log(bottonText)
 
 
 
