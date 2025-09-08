@@ -44,6 +44,26 @@
 // type of function
 //  
 function deep(name ,age){
-    console.log("hello",name ,"that you have a " ,age)
+    console.log("hello"+name +"that you have a " +age)
 }
 deep("alina" , 33) 
+//tamrin
+function square(number){
+    return number *number 
+}
+let  result = square(5)
+console.log(result)
+//******                       operators ****                            **** */
+let x = 10;
+let y =15;
+console.log(x+y)
+console.log(x**y) 
+console.log(x/y)
+console.log(x++)
+console.log(++x)
+console.log(+x)
+
+
+
+// console.log(x%y)    baqimande
+ 
