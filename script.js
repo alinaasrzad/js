@@ -92,5 +92,10 @@ let ProductPrice = 1000;
 console.log(cantbuy)
 
 //not
+
 // !
+//taqadom amalgara
+let f = 4 + 5 * 2;
+//* is the first
+console.log(f)
 
