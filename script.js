@@ -89,7 +89,7 @@ let ProductPrice = 1000;
 // logical OR
 // ||
  let cantbuy = ProductCount > 6 || credit >ProductPrice;
-console.log(!cantbuy)
+console.log(cantbuy)
 
 //not
 // !
