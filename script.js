@@ -123,6 +123,11 @@ switch(role){
         
 }
 //***               **              ***  */
+//for
+///while
+//do while
+//  for .. in
+//for .. of
 // console("neon");
 // console("neon");
 // console("neon");
