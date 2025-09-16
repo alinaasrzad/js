@@ -134,18 +134,18 @@ switch(role){
 // console("neon");
 // console("neon");
  
-for(let i=0;i<30;i++ ){
-    if(i % 2===0){
-console.log(i)
-    }
-    console.log("neon");
+// for(let i=0;i<30;i++ ){
+//     if(i % 2===0){
+// console.log(i)
+//     }
+//     console.log("neon");
     
-}
+// }
 ;
 
 //**        ***         ***         ***         *** */
-let i = 0 ;
-while(i<4){
-    i++
+let i= 0 ;
+while(i<=8){
+console.log(i);
+    i++;
 }
-console.log(i)
