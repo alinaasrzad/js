@@ -190,7 +190,7 @@ while (i <= 10) {
 }
 
 //***               ****                ****                    ****            ** */
-
+//پیمایش پراپرنی های یک ابچکت
 let radius = 2;
 let x = 1;
 let y = 1;
@@ -201,4 +201,9 @@ let circle = {
     x: 1,
     y: 1,
   },
+  isVisible:true,
+  draw:function(){
+    console.log('draw')
+  }
 };
+circle.draw();
