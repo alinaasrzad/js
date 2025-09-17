@@ -206,8 +206,12 @@ let circle = {
     console.log('draw')
   }
 };
-circle.draw();
 
 
 ///                      ***    ***             ***         ***         ***         ***
 //factory function
+function createCircle() {
+    
+
+}
+circle.draw();
