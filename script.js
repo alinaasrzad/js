@@ -156,7 +156,13 @@ switch(role){
 // }while(i<5);
 
 const person = {
-    name:alina,
+    name:"alina",
     age :27,
-    user:admin
+    user:"admin"
+}
+// key inja yani name , age , user
+for (const key in person) {
+   console.log(key),
+   console.log(person[key])
+
 }
