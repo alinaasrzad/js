@@ -160,9 +160,21 @@ const person = {
     age :27,
     user:"admin"
 }
+const colors= ["red","blue","pink"]
 // key inja yani name , age , user
 for (const key in person) {
    console.log(key),
    console.log(person[key])
 
+}
+for (index in colors )
+{
+    console.log(index)
+    console.log(colors[index])
+
+}
+//index inja shomare haye har kodom ro mizare
+for (let color of colors)
+{
+    console.log(color)
 }
