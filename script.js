@@ -207,3 +207,7 @@ let circle = {
   }
 };
 circle.draw();
+
+
+///                      ***    ***             ***         ***         ***         ***
+//factory function
