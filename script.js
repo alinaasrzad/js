@@ -155,3 +155,8 @@ switch(role){
 //     i++;
 // }while(i<5);
 
+const person = {
+    name:alina,
+    age :27,
+    user:admin
+}
