@@ -195,23 +195,18 @@ let radius = 2;
 let x = 1;
 let y = 1;
 
-let circle = {
-  radius: 2,
-  location: {
-    x: 1,
-    y: 1,
-  },
-  isVisible:true,
-  draw:function(){
-    console.log('draw')
-  }
-};
-
-
 ///                      ***    ***             ***         ***         ***         ***
 //factory function
-function createCircle() {
-    
-
+function createCircle(radius) {
+  return {
+    radius,
+    isVisible: true,
+    draw(){
+      console.log("draw");
+    },
+  };
 }
-circle.draw();
+let circle1 = createCircle(2);
+console.log(circle1);
+let circle2 = createCircle(7);
+console.log(circle2);
