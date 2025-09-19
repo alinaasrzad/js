@@ -197,7 +197,8 @@ let y = 1;
 
 ///                      ***    ***             ***         ***         ***         ***
 //factory function
-
+//camel notation   
+//oneTwoThree
 function createCircle(radius) {
   return {
     radius,
@@ -213,3 +214,10 @@ let circle2 = createCircle(7);
 console.log(circle2);
 
 //***           ***             ***                 *** */
+//constructor function 
+//pascal notation
+//OneTwoThree
+
+function circle(radius){
+this.radius  =radius;
+}  
