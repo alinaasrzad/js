@@ -218,6 +218,10 @@ console.log(circle2);
 //pascal notation
 //OneTwoThree
 
-function circle(radius){
-this.radius  =radius;
+function Circle(radius){
+this.radius  = radius;
+this.draw= function (){
+  console.log("draw")}
 }  
+const circle = new Circle("6t5");
+console.log(circle)
