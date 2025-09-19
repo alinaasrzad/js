@@ -47,7 +47,7 @@
 function deep(name, age) {
   console.log("hello" + name + "that you have a " + age);
 }
-deep("alina", 33);
+deep("alina ", 33);
 //tamrin
 function square(number) {
   return number * number;
@@ -224,4 +224,6 @@ this.draw= function (){
   console.log("draw")}
 }  
 const circle = new Circle("6t5");
-console.log(circle)
+console.log(circle);
+
+/// ***     ****      ***       ***       ***
