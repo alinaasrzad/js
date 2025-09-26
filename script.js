@@ -227,3 +227,26 @@ const circle = new Circle("6t5");
 console.log(circle);
 
 /// ***     ****      ***       ***       ***
+//value types 
+//numbers
+//strings
+//boolean
+//symbol
+//undefind
+//null
+
+
+//reference type
+//function
+//objrects
+//array
+let d = 3;
+let s=d;
+console.log(s);
+
+let number =5;
+function increse(number){
+  number++;
+}
+increse(number);
+console.log(number)
