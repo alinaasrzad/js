@@ -249,4 +249,9 @@ function increse(number){
   number++;
 }
 increse(number);
-console.log(number)
+console.log(number);
+
+
+///***          ***     ***             ***           ***               *** */
+//math
+console.log(Math.random())
